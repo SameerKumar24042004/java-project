@@ -10,7 +10,7 @@ public class game {
             char computer;
             Scanner sc = new Scanner(System.in);
             Random random = new Random();
-            int randomInt = random.nextInt();
+            //int randomInt = random.nextInt();
             int min = 1;
             int max = 3;
             int randomIntInRange = random.nextInt(max - min + 1) + min;
