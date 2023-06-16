@@ -6,14 +6,14 @@ public class game {
     public static void main(String[] args) {
         boolean s = true; // while =1
         while (s) {
-            int b;
+            int b,min,max,randomIntInRange;
             char computer;
             Scanner sc = new Scanner(System.in);
             Random random = new Random();
             //int randomInt = random.nextInt();
-            int min = 1;
-            int max = 3;
-            int randomIntInRange = random.nextInt(max - min + 1) + min;
+            min = 1;
+            max = 3;
+            randomIntInRange = random.nextInt(max - min + 1) + min;
             if (randomIntInRange == 1) {
                 computer = 'r';
             } else if (randomIntInRange == 2) {
